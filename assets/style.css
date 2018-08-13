@@ -1,5 +1,7 @@
 body{
 	background-color:#fff5e4;
+	padding: 20px;
+	border: 13px solid #ff3600;
 /*	background-color:#fff1dc;*/
 }
 
@@ -50,3 +52,166 @@ h3 {
 	margin: 0;
 	line-height: 40px;
 }
+
+
+#nav {
+	display: block;
+	width: 10%;
+/*	background-color: pink;*/
+	float: left;
+	margin-top: 30px;
+}
+
+#nav img {
+	max-width: 100%;
+	min-width: 80px;
+
+}
+
+
+#header {
+	display: block;
+	width: 100%;
+	margin-top: 80px;
+/*	background-color: yellow;*/
+/*	width: 70%;
+	margin-left: 30%;*/
+
+}
+
+
+/*ROTATION////////////////////////////////////////////////////*/
+
+
+@-webkit-keyframes  {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    transform-origin: 50% 50%; 
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    transform-origin: 50% 50%;
+  }
+}
+
+@keyframes rotate {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    transform-origin: 50% 50%;
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+   	transform-origin: 50% 50%;
+  }
+}
+
+.container {
+	margin-top: 200px;
+ 	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.container > div.blocks {
+/*  flex: 10;*/
+}
+
+
+
+.blocks {
+	display: block;
+	margin: 35px;
+	width: 250px;
+	height: 327px;
+
+
+}
+
+.stars {
+	display: block;
+	width: 250px;
+/*	background-color: white;*/
+	height: 250px;
+	position: relative;
+	background-image: url('star.svg'); 
+	background-position: center;
+	background-repeat: no-repeat;
+/*	border-radius: 50%;
+	border: 1px solid black;*/
+	}
+
+
+/*
+.stars svg {
+	width: 270px;
+	height: 270px;
+	z-index: 1;
+	position: absolute;
+	left:15px;
+	top: 15px;
+	display: block;
+	margin: 0 auto;
+}
+*/
+/*.stars svg:hover {
+  -webkit-animation: rotate 1.9s linear infinite;
+  -moz-animation: rotate 1.9s linear infinite;
+  -ms-animation: rotate 1.9s linear infinite;
+  -o-animation: rotate 1.9s linear infinite;
+  animation: rotate 1.9s linear infinite;
+}*/
+
+.stars:hover {
+    -webkit-animation-name: rotate; 
+    -webkit-animation-duration: 0.8s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: rotate; 
+    -moz-animation-duration: 0.8s; 
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+/*    transform: translate(15% 15%);*/
+}
+@-webkit-keyframes rotate {
+    from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);}
+}
+
+.stars img {
+	display: block;
+	width: auto;
+	height: 190px;
+	z-index: 99 !important;
+	margin: 0 auto;
+	position: relative;
+	top: 55%;
+	transform: translateY(-50%);
+}
+
+
+.text {
+	display: block;
+	width: 250px;
+/*	height: auto;
+	background-color: yellow;*/
+	text-align: center;
+	font-size: 40px;
+	font-family: Clearface;
+	color: #ff3600;
+	line-height: 75px;
+}
+
+
+
+
