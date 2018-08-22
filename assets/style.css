@@ -1,9 +1,3 @@
-body{
-	background-color:#fff5e4;
-	padding: 20px;
-	border: 13px solid #ff3600;
-/*	background-color:#fff1dc;*/
-}
 
 @font-face {
     font-family: Clearface;
@@ -213,5 +207,46 @@ h3 {
 }
 
 
+
+
+
+/*--------------------------------SMALL TALK*/
+
+ul {
+	list-style-type: none;
+	white-space:nowrap;
+	overflow: auto;
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+/*    margin-bottom: 15px;*/  
+}
+
+li {
+	display: inline;
+}
+
+li a {
+	display: inline;
+	text-align: center;
+	padding:14px 16px 20px;
+	text-decoration: none;
+	font-size: 35px;
+}
+
+li img {
+	height:150px;
+	width: auto;
+}
+
+.text {
+	display: block;
+	width: 100%;
+	font-size: 50px;
+	color:blue;
+	font-family: courier;
+	/*background-color: blue;*/
+}
 
 
