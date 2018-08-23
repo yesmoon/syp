@@ -1,7 +1,7 @@
 
 
 // Put all the images in a JavaScript array
-var $imgs = $("li.section-link");
+var $imgs = $(".section-link");
 
 
 // If you store your content in an array of objects, you can do this without creating 
