@@ -4,6 +4,12 @@
     src: url(ClearfaceStd-Black.otf);
 }
 
+
+@font-face {
+    font-family: atlas-grotesk-bold;
+    src: url(AtlasGrotesk-Bold-Web.ttf);
+}
+
 .oval {
 	position: relative;
 	width: 900px;
@@ -227,17 +233,23 @@ li {
 	display: inline;
 }
 
-li a {
-	display: inline;
-/*	text-align: center;
-	padding:14px 16px;*/
-	text-decoration: none;
-	font-size: 35px;
-}
+
 
 li img {
 	height:120px;
 	width: auto;
+}
+
+.title {
+	display: block;
+	width: 100%;
+	height: auto;
+	overflow-y: scroll;
+	font-size: 4.5em;
+	color:red;
+	font-family: courier;
+	padding-top: 20px;
+
 }
 
 .text {
@@ -245,10 +257,13 @@ li img {
 	width: 100%;
 	height: 700px;
 	overflow-y: scroll;
-	font-size: 4em;
-	color:orange;
+	font-size: 4.5em;
+	color:red;
 	font-family: courier;
-	/*background-color: blue;*/
+	padding-top: 20px;
 }
 
-
+/*.section-link img {
+		height:120px;
+	width: auto;
+}*/
