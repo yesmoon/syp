@@ -247,7 +247,6 @@ li img {
 	font-size: 7em;
 	color:red;
 	font-family:courier;
-
 }
 
 .text {
@@ -261,10 +260,14 @@ li img {
 	text-align: left;
 	font-family: courier;
 	padding-top: 20px;
-/*	margin-bottom: 300px;*/
 }
+
+.section-display:not(.active) {
+      display: none;
+    }
 
 /*.section-link img {
 		height:120px;
 	width: auto;
 }*/
+

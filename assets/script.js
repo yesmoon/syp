@@ -1,5 +1,8 @@
+
+
 // Put all the images in a JavaScript array
-var $imgs = $(".section-link");
+var $imgs = $("li.section-link");
+
 
 // If you store your content in an array of objects, you can do this without creating 
 // more than one display div. You'll just get the content from the object in the
