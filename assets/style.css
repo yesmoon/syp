@@ -244,11 +244,9 @@ li img {
 	display: block;
 	width: 100%;
 	height: auto;
-	overflow-y: scroll;
-	font-size: 4.5em;
+	font-size: 7em;
 	color:red;
-	font-family: courier;
-	padding-top: 20px;
+	font-family:courier;
 
 }
 
@@ -257,10 +255,13 @@ li img {
 	width: 100%;
 	height: 700px;
 	overflow-y: scroll;
-	font-size: 4.5em;
+	font-size: 3em;
 	color:red;
+	line-height: 1em;
+	text-align: left;
 	font-family: courier;
 	padding-top: 20px;
+/*	margin-bottom: 300px;*/
 }
 
 /*.section-link img {
