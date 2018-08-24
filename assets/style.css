@@ -218,19 +218,23 @@ h3 {
 
 /*--------------------------------SMALL TALK*/
 
-ul {
+.sypfaces ul {
 	list-style-type: none;
-	white-space:nowrap;
-	overflow: auto;
 	position: fixed;
     bottom: 0;
     width: 100%;
     background-color: white;
-/*    margin-bottom: 15px;*/  
+    display: inline-block;
+ 	white-space: nowrap;
+overflow: scroll;
 }
 
 li {
-	display: inline;
+ display: inline-block;
+ max-width: 250px;
+ padding: 30px 20px;
+ border-radius: 4px;
+ white-space: normal;
 }
 
 
@@ -240,12 +244,19 @@ li img {
 	width: auto;
 }
 
+.sypfaces {
+ max-width: 100%;
+overflow: scroll;
+ width: 100%;
+ display: block;
+}
+
 .title {
 	display: block;
 	width: 100%;
 	height: auto;
 	font-size: 7em;
-	color:red;
+	color:black;
 	font-family:courier;
 }
 
@@ -255,7 +266,7 @@ li img {
 	height: 700px;
 	overflow-y: scroll;
 	font-size: 3em;
-	color:red;
+	color:black;
 	line-height: 1.2em;
 	text-align: left;
 	font-family: courier;

@@ -38,6 +38,14 @@ $imgs.on("click", function(){
   // Find the child elements within the output div that need updating and
   // extract the content from the array of objects that correspond
   // to the index of the image that was clicked.
-  $(".title", $outputDiv).text(data[$(this).index()-1].title);
-  $(".text", $outputDiv).text(data[$(this).index()-1].text);    
+  $(".title", $outputDiv).text(data[$(this).index()].title);
+  $(".text", $outputDiv).text(data[$(this).index()].text);    
 });
+
+$(document).ready(function () {
+    $('.sypfaces').mousewheel(function(e, delta) {
+        this.scrollLeft -= (delta * 40);
+        e.preventDefault();
+    });
+    
+    });
