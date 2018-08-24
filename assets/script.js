@@ -41,6 +41,8 @@ $imgs.on("click", function(){
   $(".title", $outputDiv).text(data[$(this).index()].title);
   $(".text", $outputDiv).text(data[$(this).index()].text);    
 });
+});
+
 
 $(document).ready(function () {
     $('.sypfaces').mousewheel(function(e, delta) {
